@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.body {
+  background-color: #ffb300; 
+  overflow-x: hidden;
+
+}
+
+
+body{
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  padding: 20px;
+  max-width: 100%;
+  justify-content: center; 
+  position: absolute;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+}
+
+
+
+.Parrafo{
+  position: relative;
+  left: 170px;
+  top: 10px;
+
+}
+
+
+    .col-12.col-md-6.text-center {
+      margin-top: -200px; 
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+.main-text {
+  position: relative;
+  margin-left: 160px;
+  bottom: -20px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  margin-right: 160px;
+}
+
+.lorem-text {
+  position: relative;
+  margin-left: 160px;
+  bottom: -5px;
+  font-family: 'Roboto', sans-serif;
+  max-width: 600px;
+  font-size: 20px;
+  margin-right: 160px;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(122, 27, 27);
+  font-size: 20px;
+  margin: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: transparent;
+  position: relative;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(150, 53, 53);
+}
+
+.navbar-logo {
+  height: 80px;
+  padding: -10px;
+  margin: 20px;
+  margin-left: 100px;
+}
+
+.custom-Navbar {
+  background-color: #ffb300; 
+}
+
+.my-button {
+  display: inline-block;
+  border: none;
+  width: 160px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 22px;
+  background-color: #e40003; 
+  transition: background-color 0.3s ease;
+  color: #ffb300;
+  text-align: center;
+  margin-left: 160px;
+  margin-top: 20px; 
+  margin-bottom: 100px;
+}
+
+.my-button:hover {
+  background-color: #da291c84;
+}
+
+
+
+.red-social1{
+  
+  width: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  left: 435px;
+  top: -30px;
+  position: relative;
+flex-wrap: wrap;
+}
+
+.red-social2{
+  
+  width: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  left: 453px;
+  top: -30px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.red-social3{
+  
+  width: 32px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  left: 470px;
+  top: -30px;
+  position: relative;
+  flex-wrap: wrap;
+
+}
+
+
+@media (max-width: 768px) {
+  .col-12.col-md-6.text-center {
+    margin-top: -200px; 
+    width: 600px;
+  }
+
+  .main-text {
+    font-size: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+   ;
+  }
+
+  .lorem-text {
+    font-size: 18px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .navbar-logo{
+   margin-left: -10px;
+  }
+
+  .my-button{
+    margin-left: 80px;
+  }
+  .red-social1{
+    left: 1px;
+
+      }
+      .red-social2{
+        left: 10px;
+        justify-content: flex-start;
+      }
+      .red-social3{
+        left: 17px;
+     
+
+      }
+      .Parrafo{
+        position: relative;
+        top: -30px;
+        left: 150px;
+      }
+    }
+
+    
+
+
+
+@media (max-width: 576px) {
+
+
+
+  .col-12.col-md-6.text-center {
+    margin-bottom: 50px; 
+  }
+
+  .main-text {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+
+  .lorem-text {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .my-button{
+    margin-left: 160px;
+  }
+
+  .red-social1{
+left: 1px;
+  }
+  .red-social2{
+    left: 10px;
+  }
+  .red-social3{
+    left: 17px
+  }
+  .Parrafo{
+    position: relative;
+    top: -30px;
+    left: 150px;
+  }
+}
+
+
